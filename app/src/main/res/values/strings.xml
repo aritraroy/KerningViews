@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KerningViewsApp</string>
+    <string name="sample_text_1">Hello!</string>
+    <string name="sample_text_2">Kerning View</string>
+    <string name="sample_text_3">The KerningView is a special TextView which lets you adjust the spacing between the characters.</string>
+    <string name="sample_text_4">Kerning Button</string>
+</resources>

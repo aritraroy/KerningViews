@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.andrognito.kerningviewsapp.SampleActivity">
+
+    <com.andrognito.kerningview.KerningTextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/sample_text_1"
+        android:textSize="@dimen/text_size_xlarge"
+        app:kv_spacing="10" />
+
+    <com.andrognito.kerningview.KerningTextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/sample_text_2"
+        android:textSize="@dimen/text_size_large"
+        app:kv_spacing="16" />
+
+    <com.andrognito.kerningview.KerningTextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/sample_text_3"
+        android:textSize="@dimen/text_size_small"
+        app:kv_spacing="2" />
+
+</LinearLayout>
