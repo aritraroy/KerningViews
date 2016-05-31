@@ -1,4 +1,7 @@
 # KerningViews
+
+![KerningViews](https://raw.githubusercontent.com/aritraroy/KerningViews/master/images/kerning.png)
+
 KerningViews provides a set of views (currently only TextView and Button) which lets you adjust the spacing between the characters in the text of that view also know as **Kerning**.
 
 Kerning is a common feature in designing apps like Photoshop or Sketch, but Android natively doesn't allow Kerning. Since API level 21, Android allows you to do this using ```setLetterSpacing``` attribute , but there is no way to achieve this in pre-21 devices.
