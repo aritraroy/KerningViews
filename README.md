@@ -16,8 +16,13 @@ This screenshot is from the sample app showing different text with different Ker
 
 This library is available in jCenter which is the default Maven repository used in Android Studio.
 
-  ```compile 'com.andrognito.kerningview:kerningview:1.0.0'  ```
-
+```gradle
+dependencies {
+    // other dependencies here
+    
+    compile 'com.andrognito.kerningview:kerningview:1.0.0'
+}
+```
 
 # Usage
 You should see the sample app for complete usage details. You can either use these views and set the attribute via XML or programatically change the kerning factor as required.
@@ -61,6 +66,7 @@ Play Store - <a href="https://play.google.com/store/apps/details?id=com.codexapp
 This is a very simple and tiny library that solves a simple usecase. But I would love to accept contributions to improve or add functionality to it.
 
 # License
+
 ```
 Copyright 2014 aritraroy
 
