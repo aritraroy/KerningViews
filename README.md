@@ -12,6 +12,13 @@ KerningViews provides a simple API to achieve this feature in TextView and Butto
 This screenshot is from the sample app showing different text with different Kerning factors.
 ![Screenshot](https://raw.githubusercontent.com/aritraroy/KerningViews/master/images/screenshot.png)
 
+# Download
+
+This library is available in jCenter which is the default Maven repository used in Android Studio.
+
+  ```compile 'com.andrognito.kerningview:kerningview:1.0.0'  ```
+
+
 # Usage
 You should see the sample app for complete usage details. You can either use these views and set the attribute via XML or programatically change the kerning factor as required.
 
@@ -21,7 +28,7 @@ Just use the  ```KerningTextView ``` or  ```KerningButton ``` in your XML layout
 
 You can customize the letter spacing by using the ```kv_spacing ``` atribute with different kerning facctor (including floating point values).
 
- ```
+ ```java
 <com.andrognito.kerningview.KerningTextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
@@ -36,7 +43,7 @@ You can customize the letter spacing by using the ```kv_spacing ``` atribute wit
 
 Just reference the views from your layout and use the setter to change the letter spacing of the texts.
 
- ```
+ ```java
 KerningTextView mText3 = (KerningTextView) findViewById(R.id.text3);
 
 if (mText3 != null) {
