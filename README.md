@@ -51,10 +51,10 @@ You can customize the letter spacing by using the ```kv_spacing ``` atribute wit
 Just reference the views from your layout and use the setter to change the letter spacing of the texts.
 
  ```java
-KerningTextView mText3 = (KerningTextView) findViewById(R.id.text3);
+KerningTextView mText = (KerningTextView) findViewById(R.id.text);
 
-if (mText3 != null) {
-   mText3.setKerningFactor(3.5f);
+if (mText != null) {
+   mText.setKerningFactor(3.5f);
 }
 ```
 
