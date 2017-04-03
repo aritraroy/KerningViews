@@ -58,19 +58,25 @@ if (mText != null) {
 }
 ```
 
-# Author
-
-Aritra Roy - aritra.roy.in@gmail.com
-Play Store - <a href="https://play.google.com/store/apps/details?id=com.codexapps.andrognito">Andrognito</a>
-
 # Contribution
 
 This is a very simple and tiny library that solves a simple usecase. But I would love to accept contributions to improve or add functionality to it.
 
+# About The Author
+
+### Aritra Roy
+
+Android & Backend Developer. Blogger. Designer. Fitness Enthusiast.
+
+<a href="https://play.google.com/store/apps/details?id=com.codexapps.andrognito&hl=en" target="_blank"><img src="https://github.com/aritraroy/social-icons/blob/master/play-store-icon.png?raw=true" width="60"></a> <a href="https://blog.aritraroy.in/" target="_blank"><img src="https://github.com/aritraroy/social-icons/blob/master/medium-icon.png?raw=true" width="60"></a>
+<a href="http://stackoverflow.com/users/2858654/aritra-roy" target="_blank"><img src="https://github.com/aritraroy/social-icons/blob/master/stackoverflow-icon.png?raw=true" width="60"></a>
+<a href="https://twitter.com/aritraroy93" target="_blank"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
+
+
 # License
 
 ```
-Copyright 2014 aritraroy
+Copyright 2016 aritraroy
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
