@@ -5,7 +5,7 @@ import android.util.AttributeSet;
 import android.widget.Button;
 
 /**
- * KerningButton is a special {@link Button} which allows
+ * KerningButton is a special {@link Button} which allows you
  * to adjust the character spacing in the text of the button
  */
 public class KerningButton extends KerningTextView {
