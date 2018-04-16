@@ -1,6 +1,7 @@
 
 # KerningViews
 [ ![Download](https://api.bintray.com/packages/aritraroy/maven/kerning-views/images/download.svg) ](https://bintray.com/aritraroy/maven/kerning-views/_latestVersion) [![API](https://img.shields.io/badge/API-14%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=14) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-KerningViews-green.svg?style=true)](https://android-arsenal.com/details/1/3662)
+
 ![KerningViews](https://raw.githubusercontent.com/aritraroy/KerningViews/master/images/kerning.png)
 
 KerningViews provides a set of views (currently only `TextView` and `Button`) which lets you adjust the spacing between the characters in the text of that view also know as **Kerning**.
