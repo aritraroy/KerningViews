@@ -4,14 +4,14 @@
 
 ![KerningViews](https://raw.githubusercontent.com/aritraroy/KerningViews/master/images/kerning.png)
 
-KerningViews provides a set of views (currently only TextView and Button) which lets you adjust the spacing between the characters in the text of that view also know as **Kerning**.
+KerningViews provides a set of views (currently only `TextView` and `Button`) which lets you adjust the spacing between the characters in the text of that view also know as **Kerning**.
 
-Kerning is a common feature in designing apps like Photoshop or Sketch, but Android natively doesn't allow Kerning. Since API level 21, Android allows you to do this using ```setLetterSpacing``` attribute , but there is no way to achieve this in pre-21 devices.
+Kerning is a common feature in design apps like Photoshop or Sketch, but Android natively doesn't allow Kerning. From API level 21, Android allows you to do this using ```setLetterSpacing``` attribute , but there is no way to achieve this in pre-21 devices.
 
-KerningViews provides a simple API to achieve this feature in TextView and Button text accross all API levels in Android.
+KerningViews provides a simple API to achieve this feature in `TextView` and `Button` text across all API levels in Android.
 
 # Screenshot
-This screenshot is from the sample app showing different text with different Kerning factors.
+This screenshot is from the sample app showing different text with different spacing (kerning factor).
 ![Screenshot](https://raw.githubusercontent.com/aritraroy/KerningViews/master/images/screenshot.png)
 
 # Download
@@ -27,13 +27,13 @@ dependencies {
 ```
 
 # Usage
-You should see the sample app for complete usage details. You can either use these views and set the attribute via XML or programatically change the kerning factor as required.
+You should see the sample app for complete usage details. You can either use these views and set the attribute via XML or programmatically change the kerning factor as required.
 
 ### XML
 
 Just use the  ```KerningTextView ``` or  ```KerningButton ``` in your XML layouts. If you do not put the  ```kv_spacing ``` attribute then it will behave as a normal TextView with no letter spacing. 
 
-You can customize the letter spacing by using the ```kv_spacing ``` atribute with different kerning facctor (including floating point values).
+You can customize the letter spacing by using the ```kv_spacing ``` attribute with different kerning factor (supports floating point values).
 
  ```java
 <com.andrognito.kerningview.KerningTextView
@@ -52,15 +52,12 @@ Just reference the views from your layout and use the setter to change the lette
 
  ```java
 KerningTextView mText = (KerningTextView) findViewById(R.id.text);
-
-if (mText != null) {
-   mText.setKerningFactor(3.5f);
-}
+mText.setKerningFactor(3.5f);
 ```
 
 # Contribution
 
-This is a very simple and tiny library that solves a simple usecase. But I would love to accept contributions to improve or add functionality to it.
+This is a very simple and tiny library that solves one simple use case.But I would love to accept contributions to improve or add functionality to it. It is my first library too. 
 
 # About The Author
 
