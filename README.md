@@ -21,8 +21,7 @@ This library is available in jCenter which is the default Maven repository used 
 ```gradle
 dependencies {
     // other dependencies here
-    
-    compile 'com.andrognito.kerningview:kerningview:1.1.0'
+    implementation 'com.andrognito.kerningview:kerningview:x.y.z'
 }
 ```
 
