@@ -18,7 +18,7 @@ This screenshot is from the sample app showing different text with different spa
 
 This library is available in jCenter which is the default Maven repository used in Android Studio.
 
-```gradle
+```groovy
 dependencies {
     // other dependencies here
     implementation 'com.andrognito.kerningview:kerningview:x.y.z'
