@@ -1,7 +1,5 @@
 package com.andrognito.kerningview;
 
-import static com.andrognito.kerningview.KerningTextView.Kerning.NO_KERNING;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.support.v7.widget.AppCompatTextView;
@@ -11,6 +9,8 @@ import android.text.style.ScaleXSpan;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.TextView;
+
+import static com.andrognito.kerningview.KerningTextView.Kerning.NO_KERNING;
 
 /**
  * KerningTextView is a special {@link TextView} which allows adjusting
@@ -52,7 +52,7 @@ public class KerningTextView extends AppCompatTextView {
             kerningFactor = currentTypedArray.getFloat(R.styleable.KerningViews_kv_spacing,
                     NO_KERNING);
             CharSequence attributeText = originalTypedArray.getText(0);
-            originalText = attributeText != null ? attributeText : "";
+            setText(attributeText, BufferType.NORMAL);
         } finally {
             originalTypedArray.recycle();
             currentTypedArray.recycle();
@@ -62,8 +62,6 @@ public class KerningTextView extends AppCompatTextView {
             Log.d(TAG, String.format("Kerning Factor: %s", kerningFactor));
             Log.d(TAG, String.format("Original Text: %s", originalText));
         }
-
-        applyKerning();
     }
 
     /**
@@ -83,7 +81,11 @@ public class KerningTextView extends AppCompatTextView {
 
     @Override
     public void setText(CharSequence text, BufferType type) {
-        originalText = text;
+        CharSequence newValue = text;
+        if (text == null) {
+            newValue = "";
+        }
+        originalText = newValue;
         applyKerning();
     }
 
