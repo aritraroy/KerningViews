@@ -51,7 +51,8 @@ public class KerningTextView extends AppCompatTextView {
         try {
             kerningFactor = currentTypedArray.getFloat(R.styleable.KerningViews_kv_spacing,
                     NO_KERNING);
-            originalText = originalTypedArray.getText(0);
+            CharSequence attributeText = originalTypedArray.getText(0);
+            originalText = attributeText != null ? attributeText : "";
         } finally {
             originalTypedArray.recycle();
             currentTypedArray.recycle();
